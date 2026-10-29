@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Testing / tooling
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Local output
+*.jsonl
+records.jsonl
+errors.jsonl
+out.jsonl

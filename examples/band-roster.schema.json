@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "contact": {
+      "type": "string",
+      "description": "Who was named as paying or owing, if any."
+    },
+    "amount": {
+      "type": "number",
+      "description": "Dollar amount mentioned, if any."
+    },
+    "tidbit": {
+      "type": ["string", "null"],
+      "description": "Short freeform detail worth remembering; null if none."
+    }
+  },
+  "required": ["contact", "amount", "tidbit"],
+  "additionalProperties": false
+}
